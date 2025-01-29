@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus Shoppy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/ionicons@5.0.0/dist/ionicons/ionicons.esm.js" rel="modulepreload">
+    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://png.pngtree.com/png-vector/20220719/ourmid/pngtree-beauty-lotus-logo-images-symbol-flower-linear-vector-png-image_38022238.png"
+                    alt="Lotus logo" class="navbar-logo">
+                LOTUS SHOPPY
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header-icons">
+                <i class="bx bx-user" id="user-icon"></i>
+            </div>
+            <div class="user">
+                  <h2>Lgin Now</h2>
+                  <input type="email" placeholder="Your email..">
+                  <input type="password" name="" id="" placeholder="Password">
+                  <input type="submit" value="Login" class="login-btn">
+                  <p>Forget Password <a href="#">Reset Now</a></p>
+                  <p>Don't have account <a href="#">Create One</a></p>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="img">
+                        <img src="imges/home img.png.PNG" alt="home image" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="text">
+                        <h1>New Arrivals</h1>
+                        <p>Don't miss out on the latest trends</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products-container">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Our Products</h2>
+            <div class="products">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="heading">
+            <h1>About Us</h1>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h4>Welcome To Our Shop</h4>
+                <p>We are a team of passionate individuals committed to bringing you the latest trends and innovative
+                    products.</p>
+
+                <a href="learnmore.html" class="cta-button">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="imges/about img.JPEG" alt="About Us Image" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="left">
+                <h3 class="heading">Get in Touch</h3>
+                <p class="text">We are here for you! How can we help?</p>
+                <form action="#">
+                    <div class="inputBox">
+                        <input type="text" name="name" class="name" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" class="email" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="inputBox">
+                        <input type="tell" name="number" class="number" placeholder="Enter Your Number" required>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" class="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="right">
+                <div class="illustration">
+                    <img src="imges/contact .PNG" alt="contact image">
+                </div>
+                <div class="contact-info">
+                    <div class="infoBox">
+                        <div class="icon">
+                            <ion-icon name="location"></ion-icon>
+                        </div>
+                        <div class="text">
+                            <p>Lotus Shoppy,Kochi.Kerala</p>
+                        </div>
+                    </div>
+                    <div class="infoBox">
+                        <div class="icon">
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="text">
+                            <a href="tel:9876543221">9876543221</a>
+                        </div>
+                    </div>
+                    <div class="infoBox">
+                        <div class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </div>
+                        <div class="text">
+                            <a href="mailto:lotusshoppy@gmail.com">lotusshoppy@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h5>Our Branches</h5>
+                    <ul>
+                        <li><a href="#">Kozhikode</a></li>
+                        <li><a href="#">Trivandrum</a></li>
+                        <li><a href="#">Thrissur</a></li>
+                        <li><a href="#">Bangaloru</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h5>Payment Methods</h5>
+                    <ul>
+                        <li><img src="imges/footer img.png" alt="visa img" width="50"></li>
+                        <li><img src="imges/footer img2.png" alt="Mastercard img" width="50"></li>
+                        <li><img src="imges/footer img3.jpeg" alt="gpay img" width="50"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Lotus Shoppy. All rights reserved</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
